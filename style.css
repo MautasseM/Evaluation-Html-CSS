@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <!-- 
+################################
+||                            ||
+||       Common Classes       ||
+||                            ||
+################################
+--> */
+
+.bg-white {
+    background-color: #fff;
+}
+.text-center {
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+
+/* Display */
+
+.d-flex{
+    display: flex;
+}
+
+.f-column{
+   flex-direction: column; 
+}
+.flex-end{
+    justify-content: flex-end;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-arround{
+    justify-content: space-around;
+}
+.f-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+
+
+/* Diminson */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.m-b-20{
+    margin-bottom: 20px;
+}
+.m-3{
+    margin: 0 3rem;
+}
+.padding-sm {
+    padding: 10px;
+}
+.p-3{
+    padding: 3rem 3rem;
+}
+.p-t-1{
+    padding-top: 1rem;
+}
+.p-l-3{
+    padding-left: 3rem;
+}
+.w-100{
+width: 100%;
+}
+.w-90{
+    width: 90%;
+}
+.w-75{
+    width: 75%;
+}
+
+.w-50{
+    width: 50%;
+}
+.v-h{
+    width: 50vw;
+}
+.w-48{
+    width: 48%;
+}
+.h-33{
+    height: 33.3%;
+}
+
+
+/* Color & Border */
+
+.bg-light {
+    background-color: rgba(232, 232, 232, 0.658);
+}
+
+.text-yellow{
+    color: #EA9F05;
+}
+
+.border{
+    border: 3px solid blueviolet;
+}
+.box-shadow{
+    box-shadow: 10px 5px 5px black;
+}
+
+
+                    /* <!-- 
+                    ################################
+                    ||                            ||
+                    ||         Header             ||
+                    ||                            ||
+                    ################################
+                    --> */
+header{
+    background-color:aliceblue;
+}
+
+
+#icon-1{
+    background: url(/img/my_account.png) no-repeat;
+    width: 40px;
+}
+#icon-2{
+    background: url(/img/my_cart.png) no-repeat;
+    width: 80px;
+    height: 70px;
+}
+
+
+
+
+                        /* <!-- 
+                        ################################
+                        ||                            ||
+                        ||         Main               ||
+                        ||                            ||
+                        ################################
+                        --> */
+
+ 
+                        
+main {
+    background-color: rgb(12, 11, 11);                          
+}
+main>section {
+    background-color: white;                          
+}
+/* product */
+#box{
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+/* #hero-img{
+    height: auto;
+    display: block;
+} */
+.price {
+    gap: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+.products .product {
+    width: 48%;
+    margin-bottom: 20px;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+                        /* <!-- 
+                        ################################
+                        ||                            ||
+                        ||         Footer             ||
+                        ||                            ||
+                        ################################
+                        --> */
+footer{
+    background-color: rgb(37, 35, 36);;
+    padding: 20px;
+}
+
+
+
